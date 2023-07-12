@@ -29,4 +29,8 @@ public class ReadConfig {
         String password=prop.getProperty("password");
         return password;
     }
+    public String getCustomerId(){
+        String customerId=prop.getProperty("customerid");
+        return customerId;
+    }
 }
